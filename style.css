@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(167, 188, 216);
+    font-size: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    color : #ffffffa9; 
+}
+
+.container {
+    
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player1 {
+    color: rgb(255, 255, 255);
+}
+
+.player2 {
+    color: rgb(255, 255, 255);
+}
+
+.activeplayer {
+    font-weight: bold;
+    color:rgb(108, 136, 173)
+    
+}
+
+.msg {
+    display: none;
+}
+
+.msg .error {
+    border: 5px solid #424abd; 
+    color:#ffffff;
+    background: #5b61b3;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.msg .success {
+    border: 5px solid #6e9778;
+    color:#f7f7f7bd;
+    background: #57804f;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.msg .info {
+    border: 5px solid#be5b5b;
+    color : #ffffff;
+    background: #ca7070;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+/*
+.msg .jouer {
+    border: 5px solid#7c7c7c;
+    color : #ffffff;
+    background: #5a5252;
+    padding: 10px;
+    text-align: ;
+
+} */
+.grille {
+      
+    text-align: center;
+    margin-top: 140px;
+}
+
+.grille table {
+    border: 5px solid #ffffffa9;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.grille td {
+    
+    width: 90px;
+    height: 90px;
+}
+
+.grille #a1 {
+    border-right: 5px #ffffffa9 solid;
+    border-bottom: 5px #ffffffa9 solid;
+} 
+
+.grille #a2 {
+    border-left: 5px #ffffffa9 solid;
+    border-right: 5px #ffffffa9 solid;
+    border-bottom: 5px #ffffffa9 solid;
+}
+
+.grille #a3 {
+    border-left: 5px #ffffffa9 solid;
+    border-bottom: 5px #ffffffa9 solid;
+}
+
+.grille #b1 {
+    border-right: 5px #ffffffa9 solid;
+    border-bottom: 5px #ffffffa9 solid;
+} 
+
+.grille #b2 {
+    border-left: 5px #ffffffa9 solid;
+    border-right: 5px #ffffffa9 solid;
+    border-bottom: 5px #ffffffa9 solid;
+}
+
+.grille #b3 {
+    border-left: 5px #ffffffa9 solid;
+    border-bottom: 5px #ffffffa9 solid;
+}
+
+.grille #c1 {
+    border-right: 5px #ffffffa9 solid;
+    border-top: 5px #ffffffa9 solid;
+} 
+
+.grille #c2 {
+    border-left: 5px #ffffffa9 solid;
+    border-right: 5px #ffffffa9 solid;
+    border-top: 5px #ffffffa9 solid;
+}
+
+.grille #c3 {
+    border-left: 5px #ffffffa9 solid;
+    border-top: 5px #ffffffa9 solid;
+}
+
+.grille .win {
+    background: rgb(103, 163, 103);
+    color: rgb(44, 100, 61);
+}
+
+.msg .replay {
+    text-decoration: none;  
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+

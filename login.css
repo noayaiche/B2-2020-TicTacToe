@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(167, 188, 216);
+    font-size: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    color: #ffffffa9; 
+}
+button{
+    font-size: 15px;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+input{
+    font-family: 'Century Gothic', sans-serif;
+    color: #000000a9;
+}
+
+select{
+    font-family: 'Century Gothic', sans-serif;
+    color: #000000a9;
+}
+
+.login-form {
+    width: 60%;
+    margin: auto;
+
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.login-form select, .login-form input {
+    display: block;
+    width: 100%;
+    /*text-align: center;*/
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 5px solid #7992ac;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.login-form .btn {
+    display: block;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: 5px solid #7992ac;
+    padding: 15px 5px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
